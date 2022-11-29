@@ -928,7 +928,7 @@ header {
 }
 
 .h6-style {
-  width: 55px;
+  /* width: 55px; */
   height: 34px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -1199,4 +1199,111 @@ footer {
     top: 45rem;
     left: 4rem;
   }
+}
+
+/* Form CSS */
+
+input:focus {
+  outline: 0;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+:-moz-placeholder {
+  font-size: 1em;
+}
+
+::-moz-placeholder {
+  font-size: 1em;
+}
+
+body {
+  background: url(http://blogs.sap.com/innovation/files/2013/09/274651_h_ergb_s_gl.jpg)
+    no-repeat 0 0;
+  background-size: cover;
+  font-family: Verdana;
+  fon-size: 0.9em;
+}
+
+h1 {
+  font-size: 1.6em;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  margin: 5rem 0;
+}
+
+#loginform {
+  width: 50%;
+  height: auto;
+  margin: 1% auto;
+}
+
+#inputlbl {
+  padding: 0px 0px 0px 20px;
+  background: rgb(151 37 63);
+  border-radius: 5px;
+}
+
+#loginform .inputsnlables:last-child {
+  border-bottom: none;
+}
+
+.inputsnlables {
+  overflow: auto;
+  border-bottom: 1px solid #dedede;
+  margin: 3rem;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  color: #fffbfb;
+  padding: 20px 0px;
+  width: 150px;
+  float: left;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  padding: 20px 0px;
+  background: transparent;
+  width: 230px;
+  font-size: 12px;
+}
+
+input[type='button'] {
+  background: #2c98e0;
+  text-align: center;
+  width: 40%;
+  border-radius: 40px;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 32%;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+input[type='button']:hover {
+  background: #d13e3c;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.hoo-title--Form {
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #d13e3c;
 }
