@@ -297,13 +297,20 @@ header {
 
 .rec-2 {
   position: absolute;
+  width: 3%;
   top: 64rem;
   right: 2rem;
   -webkit-animation: spin 5s linear infinite;
   animation: spin 5s linear infinite;
 }
 
-.rec-img {
+.rec-3 {
+  position: absolute;
+  width: 3%;
+  top: 52rem;
+  right: 173rem;
+  -webkit-animation: spin 5s linear infinite;
+  animation: spin 5s linear infinite;
 }
 
 .ellip-1 {
