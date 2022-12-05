@@ -1318,6 +1318,17 @@ input[type='button']:hover {
   letter-spacing: 0em;
   text-align: center;
   color: #d13e3c;
+  padding: 1rem;
+}
+.title-for--bookrack {
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
 }
 
 /* Responsive Design for laptop and tablet */
@@ -1420,13 +1431,13 @@ input[type='button']:hover {
   .ellip-1 {
     position: absolute;
     top: 70rem;
-    right: 3rem;
+    right: 1rem;
     -webkit-animation: spinXY 5s linear infinite;
     animation: spinXY 5s linear infinite;
   }
   .ellip-2 {
     position: absolute;
-    top: 113rem;
+    top: 132rem;
     right: 2rem;
     -webkit-animation: spinXY 5s linear infinite;
     animation: spinXY 5s linear infinite;
@@ -1492,20 +1503,10 @@ input[type='button']:hover {
   }
   .blog-items {
     width: 320px;
-    height: 406px;
+    height: 423px;
     background: #ffffff;
     box-shadow: 2px 2px 10px 4px rgb(144 144 144 / 25%);
     border-radius: 10px;
     position: relative;
-  }
-  .hoo-title--Form {
-    font-family: 'Noto Serif', sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #d13e3c;
   }
 }
